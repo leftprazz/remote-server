@@ -1,5 +1,7 @@
 # Ignore .env files
-/gcp/*/.env*
+.env
+.env.staging
+.env.production
 
 # Ignore cache files
 **/cache/
