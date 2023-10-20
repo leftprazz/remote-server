@@ -31,7 +31,6 @@ chmod +x service-check.sh
 Usage:
 ```bash
 chmod +x test-ssh.sh
-chmod 600 .env  # Ensure your SSH private key has the correct permissions
 ./test-ssh.sh
 ```
 
@@ -71,6 +70,11 @@ chmod 600 .env  # Ensure your SSH private key has the correct permissions
    SSH_HOST="your_ssh_host"
    SSH_PORT="your_ssh_port"
    SSH_KEY_PATH="path/to/your/private_key"
+   ```
+   Set permission for .env file
+
+   ```bash
+   chmod 600 .env  # Ensure your SSH private key has the correct permissions
    ```
 
 4. **Run the Scripts:**
