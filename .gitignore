@@ -2,6 +2,10 @@
 .env
 .env.staging
 .env.production
+/ssh
+id_rsa
+id_rsa.pub
+lp-cloud.pem
 
 # Ignore cache files
 **/cache/

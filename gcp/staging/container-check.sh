@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source .env
+source ../.env.staging
 
 COMMAND="docker ps"
 

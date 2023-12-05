@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source .env
+source ../.env.production
 
 #Test ssh connection
 ssh -i "$SSH_KEY_PATH" -p "$SSH_PORT" "$SSH_USERNAME"@"$SSH_HOST" echo "---SSH CONNECTION TEST--"

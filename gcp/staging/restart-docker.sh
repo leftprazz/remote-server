@@ -2,6 +2,8 @@
 
 source ../.env.staging
 
-COMMAND="docker service ls"
+COMMAND="sudo systemctl restart docker"
 
 ssh -i "$SSH_KEY_PATH" -p "$SSH_PORT" "$SSH_USERNAME"@"$SSH_HOST" "$COMMAND"
+
+echo "Docker telah di-restart"

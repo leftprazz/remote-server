@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source .env
+source ../.env.production
 
 COMMAND="docker service ls"
 
