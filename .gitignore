@@ -6,6 +6,8 @@
 id_rsa
 id_rsa.pub
 lp-cloud.pem
+log
+/log
 
 # Ignore cache files
 **/cache/
